@@ -88,6 +88,7 @@ header {
 .jumbotron {
   max-width: 100%;
   height: 90vh;
+  margin-bottom: 15px;
   background: url(../images/maxresdefault.jpg) center center fixed;
   background-size: cover;
   background-position: center;
@@ -141,4 +142,188 @@ header {
 .btn-outline-secondary:hover {
   background-color: #5c4e4e;
   border-color: #5c4e4e;
+}
+
+/* galeria de imagenes bienvenida */
+
+.text-galeria {
+  text-align: center;
+  margin-top: 10px;
+  padding: 40px 0px 5px 0px;
+}
+
+.text-galeria h2 {
+  font-size: 30px;
+  padding-bottom: 5px;
+}
+
+.galeria-inicio a {
+  text-decoration: none;
+  color: #333;
+}
+
+.galeria-inicio a:visited {
+  text-decoration: none;
+}
+
+.galeria-inicio a:hover {
+  color: #444;
+}
+
+.galeria-inicio h3 {
+  text-align: center;
+  padding: 10px;
+  font-size: 25px;
+}
+
+.text-galeria p {
+  font-size: 15px;
+  color: #666;
+  font-style: italic;
+}
+
+.grid-container {
+  display: grid;
+  justify-content: center;
+  grid-template-columns: repeat(4, 250px);
+  grid-auto-rows: minmax(200px, auto);
+  gap: 20px;
+  padding: 20px;
+  grid-auto-flow: dense;
+}
+
+.grid-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  border-radius: 4px;
+  transition: transform 0.3s ease-in-out;
+
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.grid-item:hover {
+  transform: scale(1.04);
+}
+
+.item1 {
+  width: 520px;
+  height: 350px;
+}
+
+.item2 {
+  width: 520px;
+  height: 635px;
+}
+
+.item3 {
+  width: 520px;
+  height: 550px;
+}
+
+.item4 {
+  width: 520px;
+  height: 510px;
+}
+
+.item5 {
+  width: 520px;
+  height: 265px;
+}
+
+.wide {
+  grid-column: span 2;
+}
+
+.tall {
+  grid-row: span 2;
+}
+
+footer {
+  margin-top: 65px;
+  padding: 45px 0px 0px 0px;
+  background-color: #d1d0d0;
+  border-style: solid;
+  border-color: #988686;
+  border-width: 2px 0px 0px 0px;
+}
+
+.feed-instagram {
+  padding: 35px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+footer h2 {
+  text-align: center;
+  font-size: 25px;
+  color: #444;
+  padding: 15px;
+}
+
+footer p {
+  color: #444;
+  margin-left: 80px;
+}
+
+.imagen-mapa {
+  width: 337px;
+  border-style: solid;
+  border-color: #988686;
+  border-width: 2px;
+}
+
+.contacto1 a {
+  margin-left: 80px;
+}
+
+.metodos-de-pago {
+  width: 100%;
+}
+
+.fondo-pagina {
+  text-align: center;
+  background-color: #988686;
+  padding: 20px 0px;
+  margin-top: 40px;
+}
+
+.fondo-pagina p {
+  margin: 0px;
+  color: #333;
+}
+
+/* section nosotros */
+
+.titulo-nosotros {
+  text-align: center;
+  font-size: 15px;
+  padding-top: 50px;
+  padding-bottom: 25px;
+}
+
+.nosotros {
+  padding: 20px;
+}
+
+.texto-nosotros {
+  text-align: end;
+  padding: 100px 0px 0px 0px;
+}
+
+.texto-nosotros-2 {
+  text-align: center;
+  padding: 100px 0px 0px 0px;
+}
+
+.img-nosotros {
+  height: 550px;
+}
+
+.img-nosotros-2 {
+  width: 460px;
+  height: 550px;
 }
